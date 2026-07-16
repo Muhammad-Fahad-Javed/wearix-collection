@@ -1,0 +1,8 @@
+{
+"name":"WEARIX COLLECTION",
+"short_name":"WEARIX",
+"start_url":"/",
+"display":"standalone",
+"background_color":"#FAFAFA",
+"theme_color":"#46321E"
+}
