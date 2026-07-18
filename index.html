@@ -2636,5 +2636,20 @@
         }
     </script>
 
+    <!-- ============================== -->
+    <!-- SCRIPTS — DEFERRED             -->
+    <!-- ============================== -->
+    <script>
+        // ... all your other JavaScript functions ...
+
+        // ============ LOADER ============ 
+        // PASTE IT RIGHT HERE (at the end of the script block)
+        window.addEventListener('load', () => {
+            setTimeout(() => document.getElementById('loader').classList.add('hidden'), 500);
+        });
+        setTimeout(() => document.getElementById('loader').classList.add('hidden'), 3500);
+
+    </script>
+
 </body>
 </html>
